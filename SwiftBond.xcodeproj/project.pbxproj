@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7345C881E0693FF0079EDDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7345C871E0693FF0079EDDB /* AppDelegate.swift */; };
+		D7345C8A1E0693FF0079EDDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7345C891E0693FF0079EDDB /* ViewController.swift */; };
+		D7345C8D1E0693FF0079EDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7345C8B1E0693FF0079EDDB /* Main.storyboard */; };
+		D7345C8F1E0693FF0079EDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7345C8E1E0693FF0079EDDB /* Assets.xcassets */; };
+		D7345C921E0693FF0079EDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7345C901E0693FF0079EDDB /* LaunchScreen.storyboard */; };
+		D7345C9D1E0694000079EDDB /* SwiftBondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7345C9C1E0694000079EDDB /* SwiftBondTests.swift */; };
+		D7345CA81E0694000079EDDB /* SwiftBondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7345CA71E0694000079EDDB /* SwiftBondUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7345C991E0694000079EDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7345C7C1E0693FF0079EDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7345C831E0693FF0079EDDB;
+			remoteInfo = SwiftBond;
+		};
+		D7345CA41E0694000079EDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7345C7C1E0693FF0079EDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7345C831E0693FF0079EDDB;
+			remoteInfo = SwiftBond;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7345C841E0693FF0079EDDB /* SwiftBond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBond.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7345C871E0693FF0079EDDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7345C891E0693FF0079EDDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7345C8C1E0693FF0079EDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7345C8E1E0693FF0079EDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7345C911E0693FF0079EDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7345C931E0693FF0079EDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7345C981E0694000079EDDB /* SwiftBondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBondTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7345C9C1E0694000079EDDB /* SwiftBondTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBondTests.swift; sourceTree = "<group>"; };
+		D7345C9E1E0694000079EDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7345CA31E0694000079EDDB /* SwiftBondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBondUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7345CA71E0694000079EDDB /* SwiftBondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBondUITests.swift; sourceTree = "<group>"; };
+		D7345CA91E0694000079EDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7345C811E0693FF0079EDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7345C951E0694000079EDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7345CA01E0694000079EDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7345C7B1E0693FF0079EDDB = {
+			isa = PBXGroup;
+			children = (
+				D7345C861E0693FF0079EDDB /* SwiftBond */,
+				D7345C9B1E0694000079EDDB /* SwiftBondTests */,
+				D7345CA61E0694000079EDDB /* SwiftBondUITests */,
+				D7345C851E0693FF0079EDDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7345C851E0693FF0079EDDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7345C841E0693FF0079EDDB /* SwiftBond.app */,
+				D7345C981E0694000079EDDB /* SwiftBondTests.xctest */,
+				D7345CA31E0694000079EDDB /* SwiftBondUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7345C861E0693FF0079EDDB /* SwiftBond */ = {
+			isa = PBXGroup;
+			children = (
+				D7345C871E0693FF0079EDDB /* AppDelegate.swift */,
+				D7345C891E0693FF0079EDDB /* ViewController.swift */,
+				D7345C8B1E0693FF0079EDDB /* Main.storyboard */,
+				D7345C8E1E0693FF0079EDDB /* Assets.xcassets */,
+				D7345C901E0693FF0079EDDB /* LaunchScreen.storyboard */,
+				D7345C931E0693FF0079EDDB /* Info.plist */,
+			);
+			path = SwiftBond;
+			sourceTree = "<group>";
+		};
+		D7345C9B1E0694000079EDDB /* SwiftBondTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7345C9C1E0694000079EDDB /* SwiftBondTests.swift */,
+				D7345C9E1E0694000079EDDB /* Info.plist */,
+			);
+			path = SwiftBondTests;
+			sourceTree = "<group>";
+		};
+		D7345CA61E0694000079EDDB /* SwiftBondUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7345CA71E0694000079EDDB /* SwiftBondUITests.swift */,
+				D7345CA91E0694000079EDDB /* Info.plist */,
+			);
+			path = SwiftBondUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7345C831E0693FF0079EDDB /* SwiftBond */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7345CAC1E0694000079EDDB /* Build configuration list for PBXNativeTarget "SwiftBond" */;
+			buildPhases = (
+				D7345C801E0693FF0079EDDB /* Sources */,
+				D7345C811E0693FF0079EDDB /* Frameworks */,
+				D7345C821E0693FF0079EDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftBond;
+			productName = SwiftBond;
+			productReference = D7345C841E0693FF0079EDDB /* SwiftBond.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7345C971E0694000079EDDB /* SwiftBondTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7345CAF1E0694000079EDDB /* Build configuration list for PBXNativeTarget "SwiftBondTests" */;
+			buildPhases = (
+				D7345C941E0694000079EDDB /* Sources */,
+				D7345C951E0694000079EDDB /* Frameworks */,
+				D7345C961E0694000079EDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7345C9A1E0694000079EDDB /* PBXTargetDependency */,
+			);
+			name = SwiftBondTests;
+			productName = SwiftBondTests;
+			productReference = D7345C981E0694000079EDDB /* SwiftBondTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7345CA21E0694000079EDDB /* SwiftBondUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7345CB21E0694000079EDDB /* Build configuration list for PBXNativeTarget "SwiftBondUITests" */;
+			buildPhases = (
+				D7345C9F1E0694000079EDDB /* Sources */,
+				D7345CA01E0694000079EDDB /* Frameworks */,
+				D7345CA11E0694000079EDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7345CA51E0694000079EDDB /* PBXTargetDependency */,
+			);
+			name = SwiftBondUITests;
+			productName = SwiftBondUITests;
+			productReference = D7345CA31E0694000079EDDB /* SwiftBondUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7345C7C1E0693FF0079EDDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kento Haneda";
+				TargetAttributes = {
+					D7345C831E0693FF0079EDDB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8H7N27Y3C3;
+						ProvisioningStyle = Automatic;
+					};
+					D7345C971E0694000079EDDB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8H7N27Y3C3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7345C831E0693FF0079EDDB;
+					};
+					D7345CA21E0694000079EDDB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8H7N27Y3C3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7345C831E0693FF0079EDDB;
+					};
+				};
+			};
+			buildConfigurationList = D7345C7F1E0693FF0079EDDB /* Build configuration list for PBXProject "SwiftBond" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7345C7B1E0693FF0079EDDB;
+			productRefGroup = D7345C851E0693FF0079EDDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7345C831E0693FF0079EDDB /* SwiftBond */,
+				D7345C971E0694000079EDDB /* SwiftBondTests */,
+				D7345CA21E0694000079EDDB /* SwiftBondUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7345C821E0693FF0079EDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7345C921E0693FF0079EDDB /* LaunchScreen.storyboard in Resources */,
+				D7345C8F1E0693FF0079EDDB /* Assets.xcassets in Resources */,
+				D7345C8D1E0693FF0079EDDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7345C961E0694000079EDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7345CA11E0694000079EDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7345C801E0693FF0079EDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7345C8A1E0693FF0079EDDB /* ViewController.swift in Sources */,
+				D7345C881E0693FF0079EDDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7345C941E0694000079EDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7345C9D1E0694000079EDDB /* SwiftBondTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7345C9F1E0694000079EDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7345CA81E0694000079EDDB /* SwiftBondUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7345C9A1E0694000079EDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7345C831E0693FF0079EDDB /* SwiftBond */;
+			targetProxy = D7345C991E0694000079EDDB /* PBXContainerItemProxy */;
+		};
+		D7345CA51E0694000079EDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7345C831E0693FF0079EDDB /* SwiftBond */;
+			targetProxy = D7345CA41E0694000079EDDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7345C8B1E0693FF0079EDDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7345C8C1E0693FF0079EDDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7345C901E0693FF0079EDDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7345C911E0693FF0079EDDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7345CAA1E0694000079EDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7345CAB1E0694000079EDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7345CAD1E0694000079EDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8H7N27Y3C3;
+				INFOPLIST_FILE = SwiftBond/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.h-kento.SwiftBond";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7345CAE1E0694000079EDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8H7N27Y3C3;
+				INFOPLIST_FILE = SwiftBond/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.h-kento.SwiftBond";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D7345CB01E0694000079EDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8H7N27Y3C3;
+				INFOPLIST_FILE = SwiftBondTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.h-kento.SwiftBondTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBond.app/SwiftBond";
+			};
+			name = Debug;
+		};
+		D7345CB11E0694000079EDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8H7N27Y3C3;
+				INFOPLIST_FILE = SwiftBondTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.h-kento.SwiftBondTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBond.app/SwiftBond";
+			};
+			name = Release;
+		};
+		D7345CB31E0694000079EDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8H7N27Y3C3;
+				INFOPLIST_FILE = SwiftBondUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.h-kento.SwiftBondUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftBond;
+			};
+			name = Debug;
+		};
+		D7345CB41E0694000079EDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8H7N27Y3C3;
+				INFOPLIST_FILE = SwiftBondUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.h-kento.SwiftBondUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftBond;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7345C7F1E0693FF0079EDDB /* Build configuration list for PBXProject "SwiftBond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7345CAA1E0694000079EDDB /* Debug */,
+				D7345CAB1E0694000079EDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7345CAC1E0694000079EDDB /* Build configuration list for PBXNativeTarget "SwiftBond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7345CAD1E0694000079EDDB /* Debug */,
+				D7345CAE1E0694000079EDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7345CAF1E0694000079EDDB /* Build configuration list for PBXNativeTarget "SwiftBondTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7345CB01E0694000079EDDB /* Debug */,
+				D7345CB11E0694000079EDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7345CB21E0694000079EDDB /* Build configuration list for PBXNativeTarget "SwiftBondUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7345CB31E0694000079EDDB /* Debug */,
+				D7345CB41E0694000079EDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7345C7C1E0693FF0079EDDB /* Project object */;
+}
