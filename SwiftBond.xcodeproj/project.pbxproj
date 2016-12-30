@@ -250,7 +250,6 @@
 				TargetAttributes = {
 					D7345C831E0693FF0079EDDB = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 8H7N27Y3C3;
 						ProvisioningStyle = Automatic;
 					};
 					D7345C971E0694000079EDDB = {
@@ -590,7 +589,7 @@
 			baseConfigurationReference = A2B16C1FCF637061BC75E8D3 /* Pods-SwiftBond.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8H7N27Y3C3;
+				DEVELOPMENT_TEAM = "";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				INFOPLIST_FILE = SwiftBond/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -605,7 +604,7 @@
 			baseConfigurationReference = 479ED89B85562987C8527E5C /* Pods-SwiftBond.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8H7N27Y3C3;
+				DEVELOPMENT_TEAM = "";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				INFOPLIST_FILE = SwiftBond/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
