@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A864B112CB7DA49BA3CE74EC /* Pods_SwiftBond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C323982EDB3D80DE1BF5A05 /* Pods_SwiftBond.framework */; };
+		B8FCAC3484CB5E911337ABFF /* Pods_SwiftBondTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C5F6A2554737E11C0DF997 /* Pods_SwiftBondTests.framework */; };
+		BD88057458682A49B1943889 /* Pods_SwiftBondUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B114CBFBBA7B0D1AC828B16F /* Pods_SwiftBondUITests.framework */; };
 		D7345C881E0693FF0079EDDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7345C871E0693FF0079EDDB /* AppDelegate.swift */; };
-		D7345C8A1E0693FF0079EDDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7345C891E0693FF0079EDDB /* ViewController.swift */; };
-		D7345C8D1E0693FF0079EDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7345C8B1E0693FF0079EDDB /* Main.storyboard */; };
+		D7345C8A1E0693FF0079EDDB /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7345C891E0693FF0079EDDB /* StartViewController.swift */; };
 		D7345C8F1E0693FF0079EDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7345C8E1E0693FF0079EDDB /* Assets.xcassets */; };
-		D7345C921E0693FF0079EDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7345C901E0693FF0079EDDB /* LaunchScreen.storyboard */; };
 		D7345C9D1E0694000079EDDB /* SwiftBondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7345C9C1E0694000079EDDB /* SwiftBondTests.swift */; };
 		D7345CA81E0694000079EDDB /* SwiftBondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7345CA71E0694000079EDDB /* SwiftBondUITests.swift */; };
+		D76127501E162FE100C60934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D761274E1E162FE100C60934 /* LaunchScreen.storyboard */; };
+		D76127511E162FE100C60934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D761274F1E162FE100C60934 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11C5F6A2554737E11C0DF997 /* Pods_SwiftBondTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBondTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		479ED89B85562987C8527E5C /* Pods-SwiftBond.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBond.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBond/Pods-SwiftBond.release.xcconfig"; sourceTree = "<group>"; };
+		6E2F18DE3EEBACE037835213 /* Pods-SwiftBondTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBondTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBondTests/Pods-SwiftBondTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C323982EDB3D80DE1BF5A05 /* Pods_SwiftBond.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBond.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B16C1FCF637061BC75E8D3 /* Pods-SwiftBond.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBond.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBond/Pods-SwiftBond.debug.xcconfig"; sourceTree = "<group>"; };
+		B114CBFBBA7B0D1AC828B16F /* Pods_SwiftBondUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBondUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7345C841E0693FF0079EDDB /* SwiftBond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBond.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7345C871E0693FF0079EDDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7345C891E0693FF0079EDDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7345C8C1E0693FF0079EDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7345C891E0693FF0079EDDB /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		D7345C8E1E0693FF0079EDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D7345C911E0693FF0079EDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7345C931E0693FF0079EDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7345C981E0694000079EDDB /* SwiftBondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBondTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7345C9C1E0694000079EDDB /* SwiftBondTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBondTests.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		D7345CA31E0694000079EDDB /* SwiftBondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBondUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7345CA71E0694000079EDDB /* SwiftBondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBondUITests.swift; sourceTree = "<group>"; };
 		D7345CA91E0694000079EDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D761274E1E162FE100C60934 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D761274F1E162FE100C60934 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E42ED8C9EDE5E69D3875764E /* Pods-SwiftBondUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBondUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBondUITests/Pods-SwiftBondUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC4602D2B68AC7D826E70826 /* Pods-SwiftBondTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBondTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBondTests/Pods-SwiftBondTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3DA25BC172C4130ECC59C51 /* Pods-SwiftBondUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBondUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBondUITests/Pods-SwiftBondUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A864B112CB7DA49BA3CE74EC /* Pods_SwiftBond.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8FCAC3484CB5E911337ABFF /* Pods_SwiftBondTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD88057458682A49B1943889 /* Pods_SwiftBondUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E2AC03D2F0BE37B2DE67938 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C323982EDB3D80DE1BF5A05 /* Pods_SwiftBond.framework */,
+				11C5F6A2554737E11C0DF997 /* Pods_SwiftBondTests.framework */,
+				B114CBFBBA7B0D1AC828B16F /* Pods_SwiftBondUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D7345C7B1E0693FF0079EDDB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				D7345C9B1E0694000079EDDB /* SwiftBondTests */,
 				D7345CA61E0694000079EDDB /* SwiftBondUITests */,
 				D7345C851E0693FF0079EDDB /* Products */,
+				E88C5B631D189B3397A8A5D0 /* Pods */,
+				0E2AC03D2F0BE37B2DE67938 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +124,10 @@
 		D7345C861E0693FF0079EDDB /* SwiftBond */ = {
 			isa = PBXGroup;
 			children = (
+				D761274D1E162F9900C60934 /* Storyboard */,
 				D7345C871E0693FF0079EDDB /* AppDelegate.swift */,
-				D7345C891E0693FF0079EDDB /* ViewController.swift */,
-				D7345C8B1E0693FF0079EDDB /* Main.storyboard */,
+				D7345C891E0693FF0079EDDB /* StartViewController.swift */,
 				D7345C8E1E0693FF0079EDDB /* Assets.xcassets */,
-				D7345C901E0693FF0079EDDB /* LaunchScreen.storyboard */,
 				D7345C931E0693FF0079EDDB /* Info.plist */,
 			);
 			path = SwiftBond;
@@ -125,6 +151,28 @@
 			path = SwiftBondUITests;
 			sourceTree = "<group>";
 		};
+		D761274D1E162F9900C60934 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D761274E1E162FE100C60934 /* LaunchScreen.storyboard */,
+				D761274F1E162FE100C60934 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E88C5B631D189B3397A8A5D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2B16C1FCF637061BC75E8D3 /* Pods-SwiftBond.debug.xcconfig */,
+				479ED89B85562987C8527E5C /* Pods-SwiftBond.release.xcconfig */,
+				6E2F18DE3EEBACE037835213 /* Pods-SwiftBondTests.debug.xcconfig */,
+				EC4602D2B68AC7D826E70826 /* Pods-SwiftBondTests.release.xcconfig */,
+				E42ED8C9EDE5E69D3875764E /* Pods-SwiftBondUITests.debug.xcconfig */,
+				F3DA25BC172C4130ECC59C51 /* Pods-SwiftBondUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7345CAC1E0694000079EDDB /* Build configuration list for PBXNativeTarget "SwiftBond" */;
 			buildPhases = (
+				1D444C64A128A14286E198E1 /* [CP] Check Pods Manifest.lock */,
 				D7345C801E0693FF0079EDDB /* Sources */,
 				D7345C811E0693FF0079EDDB /* Frameworks */,
 				D7345C821E0693FF0079EDDB /* Resources */,
+				911FE1636C41B9424784C9D6 /* [CP] Embed Pods Frameworks */,
+				F80EECAAAFC3C1FAB976474D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7345CAF1E0694000079EDDB /* Build configuration list for PBXNativeTarget "SwiftBondTests" */;
 			buildPhases = (
+				7A58FAB60AED46E93929DD83 /* [CP] Check Pods Manifest.lock */,
 				D7345C941E0694000079EDDB /* Sources */,
 				D7345C951E0694000079EDDB /* Frameworks */,
 				D7345C961E0694000079EDDB /* Resources */,
+				044FC0A4AE1E76A594FB4E1D /* [CP] Embed Pods Frameworks */,
+				903625DCB27C598989A50415 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7345CB21E0694000079EDDB /* Build configuration list for PBXNativeTarget "SwiftBondUITests" */;
 			buildPhases = (
+				8EB51A7A6A63632A9A178E0B /* [CP] Check Pods Manifest.lock */,
 				D7345C9F1E0694000079EDDB /* Sources */,
 				D7345CA01E0694000079EDDB /* Frameworks */,
 				D7345CA11E0694000079EDDB /* Resources */,
+				968FAAD474C04D0E2076AE33 /* [CP] Embed Pods Frameworks */,
+				38454FC99A2776CB3431FCD7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +292,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7345C921E0693FF0079EDDB /* LaunchScreen.storyboard in Resources */,
+				D76127511E162FE100C60934 /* Main.storyboard in Resources */,
 				D7345C8F1E0693FF0079EDDB /* Assets.xcassets in Resources */,
-				D7345C8D1E0693FF0079EDDB /* Main.storyboard in Resources */,
+				D76127501E162FE100C60934 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +314,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		044FC0A4AE1E76A594FB4E1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBondTests/Pods-SwiftBondTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D444C64A128A14286E198E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		38454FC99A2776CB3431FCD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBondUITests/Pods-SwiftBondUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A58FAB60AED46E93929DD83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EB51A7A6A63632A9A178E0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		903625DCB27C598989A50415 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBondTests/Pods-SwiftBondTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		911FE1636C41B9424784C9D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBond/Pods-SwiftBond-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968FAAD474C04D0E2076AE33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBondUITests/Pods-SwiftBondUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F80EECAAAFC3C1FAB976474D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBond/Pods-SwiftBond-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D7345C801E0693FF0079EDDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7345C8A1E0693FF0079EDDB /* ViewController.swift in Sources */,
+				D7345C8A1E0693FF0079EDDB /* StartViewController.swift in Sources */,
 				D7345C881E0693FF0079EDDB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,25 +492,6 @@
 			targetProxy = D7345CA41E0694000079EDDB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D7345C8B1E0693FF0079EDDB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7345C8C1E0693FF0079EDDB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D7345C901E0693FF0079EDDB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7345C911E0693FF0079EDDB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D7345CAA1E0694000079EDDB /* Debug */ = {
@@ -411,9 +587,11 @@
 		};
 		D7345CAD1E0694000079EDDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B16C1FCF637061BC75E8D3 /* Pods-SwiftBond.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8H7N27Y3C3;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				INFOPLIST_FILE = SwiftBond/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.h-kento.SwiftBond";
@@ -424,9 +602,11 @@
 		};
 		D7345CAE1E0694000079EDDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479ED89B85562987C8527E5C /* Pods-SwiftBond.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8H7N27Y3C3;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				INFOPLIST_FILE = SwiftBond/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.h-kento.SwiftBond";
@@ -437,8 +617,9 @@
 		};
 		D7345CB01E0694000079EDDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E2F18DE3EEBACE037835213 /* Pods-SwiftBondTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8H7N27Y3C3;
 				INFOPLIST_FILE = SwiftBondTests/Info.plist;
@@ -452,8 +633,9 @@
 		};
 		D7345CB11E0694000079EDDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4602D2B68AC7D826E70826 /* Pods-SwiftBondTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8H7N27Y3C3;
 				INFOPLIST_FILE = SwiftBondTests/Info.plist;
@@ -467,8 +649,9 @@
 		};
 		D7345CB31E0694000079EDDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42ED8C9EDE5E69D3875764E /* Pods-SwiftBondUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = 8H7N27Y3C3;
 				INFOPLIST_FILE = SwiftBondUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,8 +664,9 @@
 		};
 		D7345CB41E0694000079EDDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3DA25BC172C4130ECC59C51 /* Pods-SwiftBondUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = 8H7N27Y3C3;
 				INFOPLIST_FILE = SwiftBondUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -512,6 +696,7 @@
 				D7345CAE1E0694000079EDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7345CAF1E0694000079EDDB /* Build configuration list for PBXNativeTarget "SwiftBondTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +705,7 @@
 				D7345CB11E0694000079EDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7345CB21E0694000079EDDB /* Build configuration list for PBXNativeTarget "SwiftBondUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +714,7 @@
 				D7345CB41E0694000079EDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
