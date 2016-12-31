@@ -10,6 +10,9 @@ class StartViewController: UIViewController {
         super.viewDidLoad()
         
         input.bnd_text
+            .map { (str: String?) -> String? in
+                return  "Your input is '\(str!)'!"
+            }
             .bind(to: label.bnd_text)
     }
 }
