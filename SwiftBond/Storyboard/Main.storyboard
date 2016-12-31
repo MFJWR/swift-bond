@@ -21,26 +21,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cXA-dB-sX4">
-                                <rect key="frame" x="43" y="47" width="159" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seg-G5-Xfk">
-                                <rect key="frame" x="43" y="125" width="159" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ez-p9-zBs">
+                                <rect key="frame" x="98" y="120" width="179" height="27"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOb-Bt-zoE">
+                                <rect key="frame" x="109.5" y="207.5" width="36" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Start"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwe-KJ-XBj">
+                                <rect key="frame" x="228.5" y="207" width="38" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Clear"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qwe-KJ-XBj" firstAttribute="centerX" secondItem="2ez-p9-zBs" secondAttribute="centerX" constant="60" id="2mw-a6-MXE"/>
+                            <constraint firstItem="fOb-Bt-zoE" firstAttribute="top" secondItem="2ez-p9-zBs" secondAttribute="bottom" constant="60" id="4Xe-6H-wnS"/>
+                            <constraint firstItem="2ez-p9-zBs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="Ehm-2R-lyi"/>
+                            <constraint firstItem="qwe-KJ-XBj" firstAttribute="top" secondItem="2ez-p9-zBs" secondAttribute="bottom" constant="60" id="Gt9-Hb-0uX"/>
+                            <constraint firstItem="fOb-Bt-zoE" firstAttribute="centerX" secondItem="2ez-p9-zBs" secondAttribute="centerX" constant="-60" id="acS-3v-jF9"/>
+                            <constraint firstItem="2ez-p9-zBs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="loq-am-S0d"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="input" destination="cXA-dB-sX4" id="hr6-Kj-sd1"/>
-                        <outlet property="label" destination="seg-G5-Xfk" id="uuT-Rd-Ceg"/>
+                        <outlet property="clearButton" destination="qwe-KJ-XBj" id="hyb-CM-nsJ"/>
+                        <outlet property="label" destination="2ez-p9-zBs" id="Lgp-J3-O6T"/>
+                        <outlet property="mainButton" destination="fOb-Bt-zoE" id="0oT-c2-XqE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

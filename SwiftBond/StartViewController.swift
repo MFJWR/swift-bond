@@ -1,31 +1,37 @@
-//
-//  ViewController.swift
-//  SwiftBond
-//
-//  Created by Kento Haneda on 2016/12/18.
-//  Copyright © 2016年 Kento Haneda. All rights reserved.
-//
-
 import UIKit
 import Bond
 
 class StartViewController: UIViewController {
-
-    @IBOutlet weak var input: UITextField!
-    @IBOutlet weak var label: UILabel!
+    
+    private var stopWatch: StopWatchViewModel?
+    
+    @IBOutlet weak private var label: UILabel!
+    
+    @IBOutlet weak private var mainButton: UIButton!
+    @IBOutlet weak private var clearButton: UIButton!
+    
+    private let stopWatchViewModel = StopWatchViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        input.bnd_text
-            .bind(to: label.bnd_text)
-
-        // Do any additional setup after loading the view, typically from a nib.
+        mainButton.bnd_tap.observe { _ in
+            self.stopWatchViewModel.mainAction.value.do()
+        }.disposeIn(bnd_bag)
+        
+        clearButton.bnd_tap.observe { _ in
+            self.stopWatchViewModel.clearAction.value.do()
+        }.disposeIn(bnd_bag)
+        
+        stopWatchViewModel.mainAction.observeNext { (action: StopWatchViewModel.Action) -> Void in
+            self.mainButton.setTitle(action.description, for: .normal)
+        }.disposeIn(bnd_bag)
+        
+        stopWatchViewModel.clearAction.observeNext { (action: StopWatchViewModel.Action) -> Void in
+            self.clearButton.setTitle(action.description, for: .normal)
+            self.clearButton.isEnabled = action.enabled
+        }.disposeIn(bnd_bag)
+        
+        stopWatchViewModel.time.bind(to: label)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }

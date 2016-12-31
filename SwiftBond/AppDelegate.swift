@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  SwiftBond
-//
-//  Created by Kento Haneda on 2016/12/18.
-//  Copyright © 2016年 Kento Haneda. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
