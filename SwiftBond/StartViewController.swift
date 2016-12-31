@@ -9,10 +9,24 @@ class StartViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        input.bnd_text
-            .map { (str: String?) -> String? in
-                return  "Your input is '\(str!)'!"
+        let intObservable = Observable<Int>(0)
+        
+        let _ = intObservable.observeNext{ (i: Int) -> Void in
+            if i == 3 {
+                print("san!")
+            } else {
+                print(i)
             }
-            .bind(to: label.bnd_text)
+        }
+        
+        let _ =  intObservable.observeCompleted { _ -> Void in
+            print("completed.")
+        }
+        
+        
+        intObservable.next(1)
+        intObservable.next(2)
+        intObservable.next(3)
+        intObservable.completed()
     }
 }
